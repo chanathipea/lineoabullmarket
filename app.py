@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 lineaccesstoken = 'aAUcds3sF1PhpOtfVUrFo182AE0BKu4sWJ/UJXplOkCCyoGdRUQmvZSgdKIOXUnJ9JlQsp9cemuT/jKYmurgRmuidyznwI5YQ3BZa5vWRjfhnD3CVHPXo7lL1uQd3v8Vd8qsDEiwRVUc7INxrMruWgdB04t89/1O/w1cDnyilFU='
 line_bot_api = LineBotApi(lineaccesstoken)
-handler = WebhookHandler('secretkey')
+handler = WebhookHandler('c10702d7cc6facabd2cc7be946f13f78')
 
 investor = Invester(app_id = 'AMIMWYD8oBdA8Na8bJjlE+o7HL8sz2czpZ9kNLfGKpyX',
                     app_secret = '2MLsxfXVQlOdZMnR',
