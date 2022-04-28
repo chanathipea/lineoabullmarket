@@ -42,7 +42,7 @@ def handle_message(event):
     text = event.message.text
     # user click rich menu
     if "My portfolio" in text:
-        check_my_portfolio(event)
+        print('You have clicked My portfolio button')
         
     # user send symbol to check the price before buy/sell
     else:
